@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <!-- Font Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto:ital,wght@1,700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@400;500;700&family=Roboto:ital,wght@1,700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Dancing+Script:wght@700&family=Lilita+One&family=Poppins:wght@400;500;700&family=Roboto:ital,wght@1,700&family=Satisfy&display=swap" rel="stylesheet" />
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>STOCK BARANG</title>
+  </head>
+  <body>
+    <!--Navbar atau navigasi-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparant">
+      <div class="container">
+        <a class="navbar-brand" href="#">Stock Barang</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto"></ul>
+          <div>
+            <a class="btn btn-primary btn-lg font-weight-bold" href="login.php" role="button">Login</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!--End Navbar-->
+
+    <!--Carousel-->
+    <section id="home">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="image/inv1.png" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <hr class="my-4" />
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="image/inv2.png" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="image/inv3.png" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <br />
+    <br />
+    <br>
+    <br>
+    <br>
+ 
+
+    <!--ABOUT-->
+    <section id="overview" class="parallax-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-sm-12">
+            <img src="image/b1.jpg" class="img-responsive" alt="Overview" />
+            <br>
+            <br>
+            <blockquote class="wow fadeInUp" data-wow-delay="1.9s">Sistem informasi stock barang bengkel mencakup fitur-fitur seperti pencatatan penerimaan barang masuk, barang keluar, pembaruan stok, dan laporan analisis persediaan.</blockquote>
+          </div>
+
+          <div class="col-md-1"></div>
+
+          <div class="wow fadeInUp col-md-4 col-sm-12" data-wow-delay="1s">
+            <div class="overview-detail">
+              <h2>About Stock Barang</h2>
+              <br>
+              <p>Sistem informasi stock barang bengkel adalah suatu sistem yang digunakan untuk mengelola dan melacak persediaan barang di dalam bengkel. 
+                Sistem ini mencakup pengumpulan, penyimpanan, pemrosesan, dan pemantauan data terkait persediaan barang bengkel seperti suku cadang, peralatan, dan perlengkapan.
+              </p>
+          </div>
+          <div class="col-md-1"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- END ABOUT-->
+  </body>
+</html>
